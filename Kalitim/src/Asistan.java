@@ -8,7 +8,7 @@ public class Asistan extends Akademisyen {
 
     @Override
     public String giris() {
-        return "Asistan" + super.giris();
+        return "Asistan " + super.giris();
     }
     public String getYuksekLisans() {
         return yuksekLisans;

@@ -6,7 +6,7 @@ public abstract class Akademisyen extends Calisan{
     super(adSoyad,eposta,telefon);
     this.bolum = bolum;
     this.gorevler = gorevler;
-    this.ders = ders;
+    this.ders = dersler;
   }
 
     public abstract void derseGir(int dersSaati);

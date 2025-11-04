@@ -12,7 +12,7 @@ public class OgretimUyesi extends Akademisyen {
     }
 
     public void derseGir(int dersSaati) {
-        System.out.println(getUnvan() + " " + getAdSoyad() + " " + getDers() + " 10 Dersine Asistan olarak girdi");
+        System.out.println(getUnvan() + " " + getAdSoyad() + " " + dersSaati + " saatlik katılım sağladı");
     }
 
     public String getUnvan() {
